@@ -88,9 +88,9 @@ If someone is regularly making changes to some pull request, that person can let
 
 Alternatively, adding any one of these labels to the pull request will also set the pull request status as `pending`:
 
-1. **no merge :no_entry_sign:**
-2. **in progress :hourglass_flowing_sand:**
-3. **:construction: work in progress :construction:**
+1. **no merge**
+2. **in progress**
+3. **work in progress**
 
 All these labels are created automatically at the time of installing the app.
 
@@ -106,7 +106,7 @@ If the file exists and the `lock_interval` field is omitted in the file, this fe
 
   * ### Archiving of inactive issues and pull requests
 
-Last but not the least, it archives old inactive issues and pull requests by automatically setting a label: **archived :file_folder:**, after **30 days** of inactivity (again this default value can be changed from the `issue.archive.interval` field in [`.github/dev-assist.yml`](dev-assist.yml) file).
+Last but not the least, it archives old inactive issues and pull requests by automatically setting a label: **archived**, after **30 days** of inactivity (again this default value can be changed from the `issue.archive.interval` field in [`.github/dev-assist.yml`](dev-assist.yml) file).
 
 If the file exists and the `archive.interval` (or only the `interval` field) is omitted in the file, this feature will be disabled.
 
