@@ -1,0 +1,8 @@
+npm-debug.log
+*.pem
+.env
+package-lock.json
+node*
+.node*
+**/.DS_Store
+bin

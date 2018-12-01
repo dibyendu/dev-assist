@@ -1,0 +1,18 @@
+pull_request:
+  # tag to look for in Pull Request(PR) Title, in PR Body or in the most recent commit message
+  # tag is to be wrapped inside open_marker and close_marker
+  # if [in progress] is found (case insensitively) in any of the above positions, merging is put on hold
+  # alternatively, any  of these labels: ['no merge', 'in progress', 'work in progress'], can also be used to put merging on hold
+  merge_on_hold_text:
+    tag: "in progress"
+    open_marker: "["
+    close_marker: "]"
+issue:
+  # omit this field to disable the locking of closed issues and PRs.
+  # lock closed issues and PRs as resolved after this many days.
+  lock_interval: 30
+  # omit the entire section to disable the archiving of stale issues and PRs.
+  # archive old (older than <interval> number of days) open issues and PRs
+  # by putting a label (named 'archived')
+  archive:
+    interval: 30  # Alternatively, just omit this field to disable the archiving

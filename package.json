@@ -1,0 +1,38 @@
+{
+  "name": "dev-assist",
+  "version": "1.1.0",
+  "description": "A Github bot 🤖 that does a list of things",
+  "author": "dibyendu <dibyendu.das.in@gmail.com>",
+  "license": "MIT",
+  "repository": "dev-assist",
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./index.js",
+    "train": "node ./wit.ai/train.js",
+    "validate": "node ./wit.ai/validate.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "canvas": "^2.0.1",
+    "d3-node": "^2.1.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-react": "^7.11.1",
+    "mongodb": "^3.1.10",
+    "node-wit": "^5.0.0",
+    "probot": "^7.4.0",
+    "probot-scheduler": "^1.2.0",
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-standard": "^18.2.0",
+    "uuid": "^3.3.2"
+  },
+  "engines": {
+    "node": "10.0.0",
+    "npm": "6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7",
+    "smee-client": "^1.0.2"
+  }
+}
