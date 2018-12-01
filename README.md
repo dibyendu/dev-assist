@@ -82,15 +82,15 @@ This app periodically checks for updats on **every 15 minutes**. So, there might
   * ### Work in progress
 
 If someone is regularly making changes to some pull request, that person can let the reviewers know that the pull request is not ready for review (or merging) by using a simple tag: `[in progress]` (can be changed from the [`.github/dev-assist.yml`](dev-assist.yml) configuration file). It sets the status of the pull request to `pending` if it finds `[in progress]` or whichever tag is set in [`.github/dev-assist.yml`](dev-assist.yml) (not case-sensitive) in:
-1. The pull request title
-2. The pull request body
-3. Most recent commit messages of the pull request
+1. The pull request **title**
+2. The pull request **body**
+3. Most recent **commit message** of the pull request
 
 Alternatively, adding any one of these labels to the pull request will also set the pull request status as `pending`:
 
-1. no merge :no_entry_sign:
-2. in progress :hourglass_flowing_sand:
-3. :construction: work in progress :construction:
+1. **no merge :no_entry_sign:**
+2. **in progress :hourglass_flowing_sand:**
+3. **:construction: work in progress :construction:**
 
 All these labels are created automatically at the time of installing the app.
 
