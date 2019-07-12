@@ -20,7 +20,7 @@
     "eslint-plugin-react": "^7.11.1",
     "mongodb": "^3.1.10",
     "node-wit": "^5.0.0",
-    "probot": "^7.4.0",
+    "probot": "^9.2.18",
     "probot-scheduler": "^1.2.0",
     "stylelint": "^9.9.0",
     "stylelint-config-recommended": "^2.1.0",
