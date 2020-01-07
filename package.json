@@ -12,7 +12,7 @@
     "validate": "node ./wit.ai/validate.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.1",
     "babel-eslint": "^10.0.1",
     "canvas": "^2.0.1",
     "d3-node": "^2.1.0",
