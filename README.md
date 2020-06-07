@@ -4,8 +4,6 @@
 
 [![Uptime Robot status](https://img.shields.io/uptimerobot/status/m780847983-0e96e67b7400a9231f8ae76c.svg?style=popout)](https://stats.uptimerobot.com/6927jsRGg)
 [![Greenkeeper badge](https://badges.greenkeeper.io/dibyendu/dev-assist.svg)](https://greenkeeper.io)
-[![Pay with Beerpay](https://beerpay.io/dibyendu/dev-assist/badge.svg?style=beer)](https://beerpay.io/dibyendu/dev-assist)
-[![Wish with Beerpay](https://beerpay.io/dibyendu/dev-assist/make-wish.svg?style=flat)](https://beerpay.io/dibyendu/dev-assist?focus=wish)
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that does a lot of usefull things.
 
